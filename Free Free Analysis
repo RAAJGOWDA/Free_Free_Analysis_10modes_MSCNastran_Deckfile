@@ -1,0 +1,20 @@
+SOL 103
+CEND
+  DISPLACEMENT = ALL
+SUBCASE       1
+  SUBTITLE  = MODAL
+$  SPC =        100
+  METHOD =       200
+BEGIN BULK
+PARAM,AUTOSPC,NO      
+PARAM,MAXRATIO,1.0+8   
+PARAM,POST,-1  
+PARAM, GRDPNT, 0
+$
+EIGRL,200,,,10
+$
+include 'include\Enter your file name here.bdf'
+$
+SPCADD,100,1
+$
+ENDDATA
