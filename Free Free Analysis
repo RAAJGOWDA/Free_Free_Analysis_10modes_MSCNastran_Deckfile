@@ -13,7 +13,7 @@ PARAM, GRDPNT, 0
 $
 EIGRL,200,,,10
 $
-include 'include\Enter your file name here.bdf'
+include 'include\$2345678.bdf'
 $
 SPCADD,100,1
 $
